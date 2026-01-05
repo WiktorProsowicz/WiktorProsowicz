@@ -1,20 +1,23 @@
 # About me
 
-My name is Wiktor and I'm a software developer with a fair-sized amount of experience in object-oriented programming and knowledge about development of deep learning models. I study Computer Science and Intelligent Systems on [AGH UST](https://www.agh.edu.pl/en/) in Cracow.
+I am a Data Science student, mainly interested in developing Deep Neural Network-based Text-to-Speech systems. In the moment, I am attending the master's degree course in Computer Science and Intelligent Systems on AGH University of Krakow.
 
-Main fields of my interests are:
+---
 
-- Digital signal processing, mainly sound analysis in deep learning
-- Software development based on object-oriented programming
-- Web/mobile apps development
+Feel free to check out my publication titled [Using Denoising Diffusion Model for Predicting Global Style Tokens in an Expressive Text-to-Speech System](https://www.mdpi.com/2079-9292/14/23/4759). It contains results of months of research and work on developing a Deep Learning-based TTS system.
 
-My language of choice is C++, which I've had opportunity to work with for a while either at work or developing my private projects. I use also Python, mainly in projects related to development of ML models (I'm constantly broadening my experience with Tensorflow), for scripting and crating mobile apps.
+As for the professional experience, I've gained a fair level of experience in C++ Software Development while working at Aptiv in Krakow. This gave me an opportunity to gain practical experience in developing object-oriented infrastructures.
 
-## Projects
+---
 
-| Name            | Description                                                                                                                |
-| :-------------- | :------------------------------------------------------------------------------------------------------------------------- |
-| **[ai_projects](https://github.com/WiktorProsowicz/ai_projects)**|  A C++ framework that helps developing deep learning models. It contains tools written from scratch as well as data preprocessing algorithms. I use this project as a playground where I can train develop my C++ and software development proficiency                                                                                                                          |
-| **[sound-resurrection](https://github.com/WiktorProsowicz/sound-resurrection)** | A Python project containing modules consisting on deep learning models performing various kinds of transformation on audio data. It is mainly dedicated to enhancing sound quality either by upsampling, denoising, completion etc. I use this project to train my Tensorflow proficiency and use in practice the learned knowledge in sound processing field |
-| [OtterCards](https://github.com/WiktorProsowicz/OtterCards)      | A mobile app that can be used to compose and harvest easy-to-use flashcards and gain knowledge with their help. It was my first semi-serious project and its flaws help me compare my programming skills from various moments in my career             |
-| [InzOprogProjekt](https://github.com/WiktorProsowicz/inz-oprog-projekt) | An internet forum for posting any type of information in textual form. Developed for purpose of university classes project |
+I'm interested in applying advanced techniques for learning languages and currently I'm striving for getting an advanced level of fluency in German.
+
+## Primary projects
+
+
+| Name | Description | Tech stack |
+| --- | --- | --- |
+| [ddpm-gst-speech-synthesis](https://github.com/WiktorProsowicz/ddpm-gst-speech-synthesis) | A Deep Learning system performing Text-to-Speech synthesis with explicit prosody modeling based on diffusion generative algorithm. The project scopes data preprocessing, model training and evaluation of the system, both objective and human-based. | Python, Pytorch  |
+| [(WIP) paragraph-tts](https://github.com/WiktorProsowicz/paragraph-tts) | An advanced TTS system for synthesizing long-form speech, e.g. audiobook paragraphs. It scopes preparing complex numerical representations for large amounts of pre-processed data and training a Deep Learning model, leveraging advanced fast attention mechanism for improved length generalization. | Python, Pytorch, MLFlow |
+| [(WIP) ai_projects](https://github.com/WiktorProsowicz/ai_projects)               | A C++ framework that helps developing deep learning models. It contains building blocks for designing neural networks as well as significant algorithms for training it, i.e. back-propagation and tensor operations. | C++, Googletest |
+| [advanced-data-mining-project](https://github.com/WiktorProsowicz/advanced-data-mining-project) | Contains results of investigating sentiment analysis possibilities for a scraped dataset containing textual restaurant reviews. The repository contains pipeline for data preprocessing, involving composing advanced numerical representations for text content, and benchmarking multiple rating prediction models. The project includes professional experiment tracking and automated model's evaluation. | Python, Pytorch, MLFlow, Transformers |
